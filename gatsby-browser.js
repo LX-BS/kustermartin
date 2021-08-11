@@ -13,7 +13,6 @@ const GlobalStyle = createGlobalStyle`
         height: 100%;
         background-color: ${props => props.theme.colors.main1};
     }
-
 `
 export const wrapRootElement = ({ element}) => (
 <ThemeProvider theme={Theme}>
