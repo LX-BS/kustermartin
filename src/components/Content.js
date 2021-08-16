@@ -1,6 +1,6 @@
 import React from "react"
-import { ContainerWrapper, ContentWrapper } from "../elements"
+import { ContentWrapper } from "../elements"
 
 export const Content = ({ children }) => {
-  return <ContainerWrapper>{children}</ContainerWrapper>
+  return <ContentWrapper>{children}</ContentWrapper>
 }
