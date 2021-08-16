@@ -3,6 +3,7 @@ import {
   FooterWrapper,
   FooterSocialWrapper,
   FooterSocialIcons,
+  P,
 } from "../elements"
 
 export const Footer = () => {
@@ -17,7 +18,9 @@ export const Footer = () => {
             <p>Mail</p>
           </a>
         </FooterSocialIcons>
-        <p>kustermartin 2021</p>
+        <P size="xsmall" color="dark">
+          kustermartin 2021
+        </P>
       </FooterSocialWrapper>
     </FooterWrapper>
   )
